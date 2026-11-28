@@ -1,5 +1,5 @@
 FROM node:26.13.1-trixie-slim@sha256:e6bedef217677b276c591795e169840edd9096dbf13f29df8ef8d1856b8820bc AS node-env
-FROM eclipse-temurin:25.0.5.1_2-jdk@sha256:ce2ef9d2d67a68de5e196d4de9d743327c44a10b57fe02ec39f572c652cacfd3 AS java-env
+FROM eclipse-temurin:27.0.1.1_4-jdk@sha256:a235abaaf912abaa4e806f6977009dc999ef04f1a75c9156626780884e807ee1 AS java-env
 
 # 1. システム依存パッケージ
 RUN apt update && \
